@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DF0600E2B0EFC2D00154196 /* TCADevcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0600D2B0EFC2D00154196 /* TCADevcampApp.swift */; };
+		1DF060102B0EFC2D00154196 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0600F2B0EFC2D00154196 /* ContentView.swift */; };
+		1DF060122B0EFC2F00154196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF060112B0EFC2F00154196 /* Assets.xcassets */; };
+		1DF060152B0EFC2F00154196 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF060142B0EFC2F00154196 /* Preview Assets.xcassets */; };
+		1DF0601F2B0EFC3000154196 /* TCADevcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0601E2B0EFC3000154196 /* TCADevcampTests.swift */; };
+		1DF060292B0EFC3000154196 /* TCADevcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF060282B0EFC3000154196 /* TCADevcampUITests.swift */; };
+		1DF0602B2B0EFC3000154196 /* TCADevcampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0602A2B0EFC3000154196 /* TCADevcampUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DF0601B2B0EFC3000154196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF060022B0EFC2D00154196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF060092B0EFC2D00154196;
+			remoteInfo = TCADevcamp;
+		};
+		1DF060252B0EFC3000154196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF060022B0EFC2D00154196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF060092B0EFC2D00154196;
+			remoteInfo = TCADevcamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DF0600A2B0EFC2D00154196 /* TCADevcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCADevcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF0600D2B0EFC2D00154196 /* TCADevcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCADevcampApp.swift; sourceTree = "<group>"; };
+		1DF0600F2B0EFC2D00154196 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DF060112B0EFC2F00154196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DF060142B0EFC2F00154196 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DF0601A2B0EFC3000154196 /* TCADevcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCADevcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF0601E2B0EFC3000154196 /* TCADevcampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCADevcampTests.swift; sourceTree = "<group>"; };
+		1DF060242B0EFC3000154196 /* TCADevcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCADevcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF060282B0EFC3000154196 /* TCADevcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCADevcampUITests.swift; sourceTree = "<group>"; };
+		1DF0602A2B0EFC3000154196 /* TCADevcampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCADevcampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DF060072B0EFC2D00154196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF060172B0EFC3000154196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF060212B0EFC3000154196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DF060012B0EFC2D00154196 = {
+			isa = PBXGroup;
+			children = (
+				1DF0600C2B0EFC2D00154196 /* TCADevcamp */,
+				1DF0601D2B0EFC3000154196 /* TCADevcampTests */,
+				1DF060272B0EFC3000154196 /* TCADevcampUITests */,
+				1DF0600B2B0EFC2D00154196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DF0600B2B0EFC2D00154196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DF0600A2B0EFC2D00154196 /* TCADevcamp.app */,
+				1DF0601A2B0EFC3000154196 /* TCADevcampTests.xctest */,
+				1DF060242B0EFC3000154196 /* TCADevcampUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DF0600C2B0EFC2D00154196 /* TCADevcamp */ = {
+			isa = PBXGroup;
+			children = (
+				1DF0600D2B0EFC2D00154196 /* TCADevcampApp.swift */,
+				1DF0600F2B0EFC2D00154196 /* ContentView.swift */,
+				1DF060112B0EFC2F00154196 /* Assets.xcassets */,
+				1DF060132B0EFC2F00154196 /* Preview Content */,
+			);
+			path = TCADevcamp;
+			sourceTree = "<group>";
+		};
+		1DF060132B0EFC2F00154196 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DF060142B0EFC2F00154196 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DF0601D2B0EFC3000154196 /* TCADevcampTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DF0601E2B0EFC3000154196 /* TCADevcampTests.swift */,
+			);
+			path = TCADevcampTests;
+			sourceTree = "<group>";
+		};
+		1DF060272B0EFC3000154196 /* TCADevcampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DF060282B0EFC3000154196 /* TCADevcampUITests.swift */,
+				1DF0602A2B0EFC3000154196 /* TCADevcampUITestsLaunchTests.swift */,
+			);
+			path = TCADevcampUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DF060092B0EFC2D00154196 /* TCADevcamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF0602E2B0EFC3000154196 /* Build configuration list for PBXNativeTarget "TCADevcamp" */;
+			buildPhases = (
+				1DF060062B0EFC2D00154196 /* Sources */,
+				1DF060072B0EFC2D00154196 /* Frameworks */,
+				1DF060082B0EFC2D00154196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCADevcamp;
+			productName = TCADevcamp;
+			productReference = 1DF0600A2B0EFC2D00154196 /* TCADevcamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DF060192B0EFC3000154196 /* TCADevcampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF060312B0EFC3000154196 /* Build configuration list for PBXNativeTarget "TCADevcampTests" */;
+			buildPhases = (
+				1DF060162B0EFC3000154196 /* Sources */,
+				1DF060172B0EFC3000154196 /* Frameworks */,
+				1DF060182B0EFC3000154196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DF0601C2B0EFC3000154196 /* PBXTargetDependency */,
+			);
+			name = TCADevcampTests;
+			productName = TCADevcampTests;
+			productReference = 1DF0601A2B0EFC3000154196 /* TCADevcampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DF060232B0EFC3000154196 /* TCADevcampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF060342B0EFC3000154196 /* Build configuration list for PBXNativeTarget "TCADevcampUITests" */;
+			buildPhases = (
+				1DF060202B0EFC3000154196 /* Sources */,
+				1DF060212B0EFC3000154196 /* Frameworks */,
+				1DF060222B0EFC3000154196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DF060262B0EFC3000154196 /* PBXTargetDependency */,
+			);
+			name = TCADevcampUITests;
+			productName = TCADevcampUITests;
+			productReference = 1DF060242B0EFC3000154196 /* TCADevcampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DF060022B0EFC2D00154196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1DF060092B0EFC2D00154196 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1DF060192B0EFC3000154196 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1DF060092B0EFC2D00154196;
+					};
+					1DF060232B0EFC3000154196 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1DF060092B0EFC2D00154196;
+					};
+				};
+			};
+			buildConfigurationList = 1DF060052B0EFC2D00154196 /* Build configuration list for PBXProject "TCADevcamp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DF060012B0EFC2D00154196;
+			productRefGroup = 1DF0600B2B0EFC2D00154196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DF060092B0EFC2D00154196 /* TCADevcamp */,
+				1DF060192B0EFC3000154196 /* TCADevcampTests */,
+				1DF060232B0EFC3000154196 /* TCADevcampUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DF060082B0EFC2D00154196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF060152B0EFC2F00154196 /* Preview Assets.xcassets in Resources */,
+				1DF060122B0EFC2F00154196 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF060182B0EFC3000154196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF060222B0EFC3000154196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DF060062B0EFC2D00154196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF060102B0EFC2D00154196 /* ContentView.swift in Sources */,
+				1DF0600E2B0EFC2D00154196 /* TCADevcampApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF060162B0EFC3000154196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF0601F2B0EFC3000154196 /* TCADevcampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF060202B0EFC3000154196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF0602B2B0EFC3000154196 /* TCADevcampUITestsLaunchTests.swift in Sources */,
+				1DF060292B0EFC3000154196 /* TCADevcampUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DF0601C2B0EFC3000154196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF060092B0EFC2D00154196 /* TCADevcamp */;
+			targetProxy = 1DF0601B2B0EFC3000154196 /* PBXContainerItemProxy */;
+		};
+		1DF060262B0EFC3000154196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF060092B0EFC2D00154196 /* TCADevcamp */;
+			targetProxy = 1DF060252B0EFC3000154196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DF0602C2B0EFC3000154196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DF0602D2B0EFC3000154196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DF0602F2B0EFC3000154196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCADevcamp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.jeffersonsetiawan.TCADevcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DF060302B0EFC3000154196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCADevcamp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.jeffersonsetiawan.TCADevcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DF060322B0EFC3000154196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.jeffersonsetiawan.TCADevcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCADevcamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCADevcamp";
+			};
+			name = Debug;
+		};
+		1DF060332B0EFC3000154196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.jeffersonsetiawan.TCADevcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCADevcamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCADevcamp";
+			};
+			name = Release;
+		};
+		1DF060352B0EFC3000154196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.jeffersonsetiawan.TCADevcampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCADevcamp;
+			};
+			name = Debug;
+		};
+		1DF060362B0EFC3000154196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.jeffersonsetiawan.TCADevcampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCADevcamp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF060052B0EFC2D00154196 /* Build configuration list for PBXProject "TCADevcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF0602C2B0EFC3000154196 /* Debug */,
+				1DF0602D2B0EFC3000154196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF0602E2B0EFC3000154196 /* Build configuration list for PBXNativeTarget "TCADevcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF0602F2B0EFC3000154196 /* Debug */,
+				1DF060302B0EFC3000154196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF060312B0EFC3000154196 /* Build configuration list for PBXNativeTarget "TCADevcampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF060322B0EFC3000154196 /* Debug */,
+				1DF060332B0EFC3000154196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF060342B0EFC3000154196 /* Build configuration list for PBXNativeTarget "TCADevcampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF060352B0EFC3000154196 /* Debug */,
+				1DF060362B0EFC3000154196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DF060022B0EFC2D00154196 /* Project object */;
+}
