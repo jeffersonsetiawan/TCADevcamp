@@ -12,19 +12,11 @@
 		1DF060122B0EFC2F00154196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF060112B0EFC2F00154196 /* Assets.xcassets */; };
 		1DF060152B0EFC2F00154196 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF060142B0EFC2F00154196 /* Preview Assets.xcassets */; };
 		1DF0601F2B0EFC3000154196 /* TCADevcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0601E2B0EFC3000154196 /* TCADevcampTests.swift */; };
-		1DF060292B0EFC3000154196 /* TCADevcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF060282B0EFC3000154196 /* TCADevcampUITests.swift */; };
-		1DF0602B2B0EFC3000154196 /* TCADevcampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0602A2B0EFC3000154196 /* TCADevcampUITestsLaunchTests.swift */; };
+		1DF060392B0EFF5200154196 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1DF060382B0EFF5200154196 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		1DF0601B2B0EFC3000154196 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1DF060022B0EFC2D00154196 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DF060092B0EFC2D00154196;
-			remoteInfo = TCADevcamp;
-		};
-		1DF060252B0EFC3000154196 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1DF060022B0EFC2D00154196 /* Project object */;
 			proxyType = 1;
@@ -41,9 +33,6 @@
 		1DF060142B0EFC2F00154196 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DF0601A2B0EFC3000154196 /* TCADevcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCADevcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF0601E2B0EFC3000154196 /* TCADevcampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCADevcampTests.swift; sourceTree = "<group>"; };
-		1DF060242B0EFC3000154196 /* TCADevcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCADevcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DF060282B0EFC3000154196 /* TCADevcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCADevcampUITests.swift; sourceTree = "<group>"; };
-		1DF0602A2B0EFC3000154196 /* TCADevcampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCADevcampUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +40,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF060392B0EFF5200154196 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1DF060172B0EFC3000154196 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DF060212B0EFC3000154196 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,7 +59,6 @@
 			children = (
 				1DF0600C2B0EFC2D00154196 /* TCADevcamp */,
 				1DF0601D2B0EFC3000154196 /* TCADevcampTests */,
-				1DF060272B0EFC3000154196 /* TCADevcampUITests */,
 				1DF0600B2B0EFC2D00154196 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +68,6 @@
 			children = (
 				1DF0600A2B0EFC2D00154196 /* TCADevcamp.app */,
 				1DF0601A2B0EFC3000154196 /* TCADevcampTests.xctest */,
-				1DF060242B0EFC3000154196 /* TCADevcampUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,15 +99,6 @@
 			path = TCADevcampTests;
 			sourceTree = "<group>";
 		};
-		1DF060272B0EFC3000154196 /* TCADevcampUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1DF060282B0EFC3000154196 /* TCADevcampUITests.swift */,
-				1DF0602A2B0EFC3000154196 /* TCADevcampUITestsLaunchTests.swift */,
-			);
-			path = TCADevcampUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +115,9 @@
 			dependencies = (
 			);
 			name = TCADevcamp;
+			packageProductDependencies = (
+				1DF060382B0EFF5200154196 /* ComposableArchitecture */,
+			);
 			productName = TCADevcamp;
 			productReference = 1DF0600A2B0EFC2D00154196 /* TCADevcamp.app */;
 			productType = "com.apple.product-type.application";
@@ -165,24 +140,6 @@
 			productReference = 1DF0601A2B0EFC3000154196 /* TCADevcampTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1DF060232B0EFC3000154196 /* TCADevcampUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DF060342B0EFC3000154196 /* Build configuration list for PBXNativeTarget "TCADevcampUITests" */;
-			buildPhases = (
-				1DF060202B0EFC3000154196 /* Sources */,
-				1DF060212B0EFC3000154196 /* Frameworks */,
-				1DF060222B0EFC3000154196 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1DF060262B0EFC3000154196 /* PBXTargetDependency */,
-			);
-			name = TCADevcampUITests;
-			productName = TCADevcampUITests;
-			productReference = 1DF060242B0EFC3000154196 /* TCADevcampUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +157,6 @@
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = 1DF060092B0EFC2D00154196;
 					};
-					1DF060232B0EFC3000154196 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 1DF060092B0EFC2D00154196;
-					};
 				};
 			};
 			buildConfigurationList = 1DF060052B0EFC2D00154196 /* Build configuration list for PBXProject "TCADevcamp" */;
@@ -215,13 +168,15 @@
 				Base,
 			);
 			mainGroup = 1DF060012B0EFC2D00154196;
+			packageReferences = (
+				1DF060372B0EFF5200154196 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 1DF0600B2B0EFC2D00154196 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1DF060092B0EFC2D00154196 /* TCADevcamp */,
 				1DF060192B0EFC3000154196 /* TCADevcampTests */,
-				1DF060232B0EFC3000154196 /* TCADevcampUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,13 +192,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1DF060182B0EFC3000154196 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DF060222B0EFC3000154196 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,15 +218,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DF060202B0EFC3000154196 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DF0602B2B0EFC3000154196 /* TCADevcampUITestsLaunchTests.swift in Sources */,
-				1DF060292B0EFC3000154196 /* TCADevcampUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +225,6 @@
 			isa = PBXTargetDependency;
 			target = 1DF060092B0EFC2D00154196 /* TCADevcamp */;
 			targetProxy = 1DF0601B2B0EFC3000154196 /* PBXContainerItemProxy */;
-		};
-		1DF060262B0EFC3000154196 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1DF060092B0EFC2D00154196 /* TCADevcamp */;
-			targetProxy = 1DF060252B0EFC3000154196 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -508,40 +442,6 @@
 			};
 			name = Release;
 		};
-		1DF060352B0EFC3000154196 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = id.jeffersonsetiawan.TCADevcampUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TCADevcamp;
-			};
-			name = Debug;
-		};
-		1DF060362B0EFC3000154196 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = id.jeffersonsetiawan.TCADevcampUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TCADevcamp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -572,16 +472,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DF060342B0EFC3000154196 /* Build configuration list for PBXNativeTarget "TCADevcampUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DF060352B0EFC3000154196 /* Debug */,
-				1DF060362B0EFC3000154196 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DF060372B0EFF5200154196 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DF060382B0EFF5200154196 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DF060372B0EFF5200154196 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1DF060022B0EFC2D00154196 /* Project object */;
 }
