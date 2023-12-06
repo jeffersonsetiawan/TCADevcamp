@@ -39,7 +39,7 @@
 		1DF060142B0EFC2F00154196 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DF0601A2B0EFC3000154196 /* TCADevcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCADevcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF0601E2B0EFC3000154196 /* QuantityEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityEditorTests.swift; sourceTree = "<group>"; };
-		1DFFEC802B1D6D0700EE0D58 /* QuantityEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityEditorView.swift; sourceTree = "<group>"; };
+		1DFFEC802B1D6D0700EE0D58 /* QuantityEditorView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = QuantityEditorView.swift; sourceTree = "<group>"; tabWidth = 2; };
 		1DFFEC822B1D761400EE0D58 /* CartProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProductView.swift; sourceTree = "<group>"; };
 		1DFFEC842B200BDC00EE0D58 /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
 		1DFFEC862B201D3A00EE0D58 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
@@ -74,7 +74,9 @@
 				1DF0601D2B0EFC3000154196 /* TCADevcampTests */,
 				1DF0600B2B0EFC2D00154196 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		1DF0600B2B0EFC2D00154196 /* Products */ = {
 			isa = PBXGroup;

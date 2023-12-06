@@ -10,11 +10,11 @@ import SwiftUI
 
 @main
 struct TCADevcampApp: App {
-    var body: some Scene {
-        WindowGroup {
-            NavigationStack {
-                RouteView()
-            }    
-        }
+  var body: some Scene {
+    WindowGroup {
+      NavigationStack {
+        RouteView()
+      }    
     }
+  }
 }
