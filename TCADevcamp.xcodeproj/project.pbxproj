@@ -45,6 +45,7 @@
 		1DFFEC862B201D3A00EE0D58 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
 		1DFFEC882B20261B00EE0D58 /* CartProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProductTests.swift; sourceTree = "<group>"; };
 		1DFFEC8A2B20311900EE0D58 /* CartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTests.swift; sourceTree = "<group>"; };
+		1DFFEC8C2B204D1D00EE0D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 		1DF0600C2B0EFC2D00154196 /* TCADevcamp */ = {
 			isa = PBXGroup;
 			children = (
+				1DFFEC8C2B204D1D00EE0D58 /* Info.plist */,
 				1DF0600D2B0EFC2D00154196 /* TCADevcampApp.swift */,
 				1DFFEC862B201D3A00EE0D58 /* RouteView.swift */,
 				1DFFEC802B1D6D0700EE0D58 /* QuantityEditorView.swift */,
@@ -382,6 +384,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TCADevcamp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCADevcamp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -411,6 +414,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TCADevcamp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCADevcamp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
