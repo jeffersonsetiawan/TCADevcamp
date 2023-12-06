@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1DF0600E2B0EFC2D00154196 /* TCADevcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0600D2B0EFC2D00154196 /* TCADevcampApp.swift */; };
-		1DF060102B0EFC2D00154196 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0600F2B0EFC2D00154196 /* ContentView.swift */; };
+		1DF060102B0EFC2D00154196 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0600F2B0EFC2D00154196 /* CartView.swift */; };
 		1DF060122B0EFC2F00154196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF060112B0EFC2F00154196 /* Assets.xcassets */; };
 		1DF060152B0EFC2F00154196 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF060142B0EFC2F00154196 /* Preview Assets.xcassets */; };
-		1DF0601F2B0EFC3000154196 /* TCADevcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0601E2B0EFC3000154196 /* TCADevcampTests.swift */; };
+		1DF0601F2B0EFC3000154196 /* QuantityEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0601E2B0EFC3000154196 /* QuantityEditorTests.swift */; };
 		1DF060392B0EFF5200154196 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1DF060382B0EFF5200154196 /* ComposableArchitecture */; };
+		1DFFEC812B1D6D0700EE0D58 /* QuantityEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFFEC802B1D6D0700EE0D58 /* QuantityEditorView.swift */; };
+		1DFFEC832B1D761400EE0D58 /* CartProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFFEC822B1D761400EE0D58 /* CartProductView.swift */; };
+		1DFFEC852B200BDC00EE0D58 /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFFEC842B200BDC00EE0D58 /* AddProductView.swift */; };
+		1DFFEC872B201D3A00EE0D58 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFFEC862B201D3A00EE0D58 /* RouteView.swift */; };
+		1DFFEC892B20261B00EE0D58 /* CartProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFFEC882B20261B00EE0D58 /* CartProductTests.swift */; };
+		1DFFEC8B2B20311900EE0D58 /* CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFFEC8A2B20311900EE0D58 /* CartTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +34,17 @@
 /* Begin PBXFileReference section */
 		1DF0600A2B0EFC2D00154196 /* TCADevcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCADevcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF0600D2B0EFC2D00154196 /* TCADevcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCADevcampApp.swift; sourceTree = "<group>"; };
-		1DF0600F2B0EFC2D00154196 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DF0600F2B0EFC2D00154196 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		1DF060112B0EFC2F00154196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DF060142B0EFC2F00154196 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DF0601A2B0EFC3000154196 /* TCADevcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCADevcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DF0601E2B0EFC3000154196 /* TCADevcampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCADevcampTests.swift; sourceTree = "<group>"; };
+		1DF0601E2B0EFC3000154196 /* QuantityEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityEditorTests.swift; sourceTree = "<group>"; };
+		1DFFEC802B1D6D0700EE0D58 /* QuantityEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityEditorView.swift; sourceTree = "<group>"; };
+		1DFFEC822B1D761400EE0D58 /* CartProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProductView.swift; sourceTree = "<group>"; };
+		1DFFEC842B200BDC00EE0D58 /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
+		1DFFEC862B201D3A00EE0D58 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		1DFFEC882B20261B00EE0D58 /* CartProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProductTests.swift; sourceTree = "<group>"; };
+		1DFFEC8A2B20311900EE0D58 /* CartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +88,11 @@
 			isa = PBXGroup;
 			children = (
 				1DF0600D2B0EFC2D00154196 /* TCADevcampApp.swift */,
-				1DF0600F2B0EFC2D00154196 /* ContentView.swift */,
+				1DFFEC862B201D3A00EE0D58 /* RouteView.swift */,
+				1DFFEC802B1D6D0700EE0D58 /* QuantityEditorView.swift */,
+				1DFFEC822B1D761400EE0D58 /* CartProductView.swift */,
+				1DF0600F2B0EFC2D00154196 /* CartView.swift */,
+				1DFFEC842B200BDC00EE0D58 /* AddProductView.swift */,
 				1DF060112B0EFC2F00154196 /* Assets.xcassets */,
 				1DF060132B0EFC2F00154196 /* Preview Content */,
 			);
@@ -94,7 +110,9 @@
 		1DF0601D2B0EFC3000154196 /* TCADevcampTests */ = {
 			isa = PBXGroup;
 			children = (
-				1DF0601E2B0EFC3000154196 /* TCADevcampTests.swift */,
+				1DF0601E2B0EFC3000154196 /* QuantityEditorTests.swift */,
+				1DFFEC882B20261B00EE0D58 /* CartProductTests.swift */,
+				1DFFEC8A2B20311900EE0D58 /* CartTests.swift */,
 			);
 			path = TCADevcampTests;
 			sourceTree = "<group>";
@@ -205,8 +223,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DF060102B0EFC2D00154196 /* ContentView.swift in Sources */,
+				1DF060102B0EFC2D00154196 /* CartView.swift in Sources */,
+				1DFFEC812B1D6D0700EE0D58 /* QuantityEditorView.swift in Sources */,
+				1DFFEC832B1D761400EE0D58 /* CartProductView.swift in Sources */,
 				1DF0600E2B0EFC2D00154196 /* TCADevcampApp.swift in Sources */,
+				1DFFEC872B201D3A00EE0D58 /* RouteView.swift in Sources */,
+				1DFFEC852B200BDC00EE0D58 /* AddProductView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DF0601F2B0EFC3000154196 /* TCADevcampTests.swift in Sources */,
+				1DF0601F2B0EFC3000154196 /* QuantityEditorTests.swift in Sources */,
+				1DFFEC892B20261B00EE0D58 /* CartProductTests.swift in Sources */,
+				1DFFEC8B2B20311900EE0D58 /* CartTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +387,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,6 +416,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
