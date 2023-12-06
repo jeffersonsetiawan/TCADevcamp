@@ -20,7 +20,7 @@ struct RouteView: View {
                     }
                     
                     NavigationLink("2. Product Item") {
-                        CartProductView(store: Store(initialState: CartProduct.State(id: UUID(), name: "iPhone 15", price: 10_000, qtyEditorState: QuantityEditor.State())) {
+                        CartProductView(store: Store(initialState: CartProduct.State(id: UUID())) {
                             CartProduct()
                         })
                     }
