@@ -13,6 +13,7 @@ struct QuantityEditor: Reducer {
         var qty = 0
         var minQty = 0
         var maxQty: Int? = nil
+        var fact: String?
         
         var isMinusButtonDisabled: Bool {
             qty <= minQty
@@ -22,27 +23,78 @@ struct QuantityEditor: Reducer {
             guard let maxQty = maxQty else { return false }
             return qty >= maxQty
         }
-        
-        init(qty: Int = 0, minQty: Int = 0, maxQty: Int? = nil) {
-            self.qty = qty
-            self.minQty = minQty
-            self.maxQty = maxQty
-        }
     }
     
     enum Action: Equatable {
         case didTapMinus
         case didTapPlus
+        case didTapCheckFact
+        case receiveFact(String)
     }
+    
+    @Dependency(\.factCheckEnv) var env
     
     func reduce(into state: inout State, action: Action) -> Effect<Action> {
         switch action {
         case .didTapMinus:
+            state.fact = nil
             state.qty -= 1
             return .none
         case .didTapPlus:
+            state.fact = nil
             state.qty += 1
             return .none
+        case .didTapCheckFact:
+            state.fact = nil
+            let qty = state.qty
+            return .run { send in
+                try await send(.receiveFact(env.randomFactCheck(qty)))
+            }
+        case .receiveFact(let fact):
+            state.fact = fact
+            return .none
+        }
+    }
+}
+
+struct FactCheckEnvironment {
+    var randomFactCheck: (Int) async throws -> String
+}
+
+extension FactCheckEnvironment: DependencyKey {
+    
+    static let testValue = Self(
+        randomFactCheck: unimplemented("randomFactCheck is unimplemented")
+    )
+    static let liveValue = Self(
+        randomFactCheck: { number in
+            let (data, _) = try await URLSession.shared
+                .data(from: URL(string: "http://numbersapi.com/\(number)")!)
+            return String(decoding: data, as: UTF8.self)
+        }
+    )
+}
+
+extension DependencyValues {
+    var factCheckEnv: FactCheckEnvironment {
+        get { self[FactCheckEnvironment.self] }
+        set { self[FactCheckEnvironment.self] = newValue }
+    }
+}
+
+struct FactCheckView: View {
+    let store: StoreOf<QuantityEditor>
+    var body: some View {
+        VStack {
+            QuantityEditorView(store: store)
+            Button("Check Fun Fact") {
+                store.send(.didTapCheckFact)
+            }
+            WithViewStore(store, observe: { $0.fact }) { viewStore in
+                if let text = viewStore.state {
+                    Text(text)
+                }
+            }
         }
     }
 }
@@ -63,7 +115,7 @@ struct QuantityEditorView: View {
                     }
                     
                     Text(String(viewStore.qty))
-                    .frame(width: 50)
+                        .frame(width: 50)
                     Button {
                         store.send(.didTapPlus)
                     } label: {

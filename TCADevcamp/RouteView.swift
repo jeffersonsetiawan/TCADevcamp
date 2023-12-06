@@ -14,7 +14,7 @@ struct RouteView: View {
             Form {
                 Section {
                     NavigationLink("1. Quantity Editor") {
-                        QuantityEditorView(store: Store(initialState: QuantityEditor.State(qty: 0)) {
+                        FactCheckView(store: Store(initialState: QuantityEditor.State(qty: 0)) {
                             QuantityEditor()
                         })
                     }
